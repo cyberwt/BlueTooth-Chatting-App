@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    tools:context="com.fan.Activity.MainActivity" >
+
+    <TextView
+        android:id="@+id/bluechat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/bluechat" />
+    <Button 
+        android:id="@+id/openserver"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/openserver"
+        android:layout_below="@id/bluechat"
+        />
+       <Button 
+        android:id="@+id/openclient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/openclient"
+        android:layout_below="@id/openserver"
+        />
+
+</RelativeLayout>

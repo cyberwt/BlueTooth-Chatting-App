@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+   <TextView 
+       android:id="@+id/conState"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/conState"
+        android:textSize="20sp"
+       />
+   <Button 
+       android:id="@+id/serverSend"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/serverSend"
+       android:layout_alignParentBottom="true"
+       />
+   <EditText 
+       android:id="@+id/serverContent"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/content"
+       android:layout_above="@id/serverSend"
+       />
+   <TextView 
+       android:id="@+id/serverShow"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_above="@id/serverContent"
+       android:layout_below="@id/conState"
+       android:background="#FF00FF"
+       />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">蓝牙聊天简化版</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bluechat">蓝牙聊天</string>
+    <string name="openserver">打开服务端</string>
+    <string name="openclient">打开客户端</string>
+    <string name="conState">连接状态</string>
+    <string name="serverSend">发送</string>
+    <string name="content">请输入内容</string>
+    <string name="search">搜索</string>
+
+</resources>
